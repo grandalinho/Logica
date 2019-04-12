@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculo churrasco</title>
+</head>
+<body>
+    <h1>Calculo Churrasco</h1>
+    <form name="frmChurrasco">
+        <p><input type="text" placeholder="Quantidade de Homens" name="txtHomem"></p>
+        <p><input type="text" placeholder="Quantidade de Mulheres" name="txtMulher"></p>
+        <p><input type="text" placeholder="Quantidade de Crianças" name="txtCrianca"></p>
+
+        <p><input type="text" placeholder="Preço do kg da carne" name="txtCarne"></p>
+        <p><input type="text" placeholder="Preço do Refrigerante" name="txtRefrigerante"></p>
+        <p><input type="text" placeholder="Preço da Cerveja" name="txtCerveja"></p>
+        
+        
+        <p><input type="button" value="Calcular" onclick="calcularChurrasco()"></p>
+
+        <input type="text" placeholder="Total do churrasco" name="txtTotal" disabled>
+        <input type="text" placeholder="Quanto cada um deve pagar" name="txtCada" disabled>
+    </form>
+    <script src="churrasco.js"></script>
+</body>
+</html>
