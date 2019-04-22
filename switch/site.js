@@ -35,7 +35,7 @@ function abrirSite() {
     }
     switch (Entrada) {
         case 6:
-            window.location = "/C:/Users/arnaldo.vyalves/Documents/Logica-arnaldo/logica/precoDaHora/index.html";
+            window.location = 
             break
     }
     switch (Entrada) {
